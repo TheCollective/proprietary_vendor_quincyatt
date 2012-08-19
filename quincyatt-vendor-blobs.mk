@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/samsung/quincyatt/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/samsung/quincyatt/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-        vendor/samsung/quincyatt/proprietary/lib/libv8.so:obj/lib/libv8.so \
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
@@ -46,7 +45,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
 	vendor/samsung/quincyatt/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
 	vendor/samsung/quincyatt/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-        vendor/samsung/quincyatt/proprietary/lib/libv8.so:system/lib/libv8.so \
 	vendor/samsung/quincyatt/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
