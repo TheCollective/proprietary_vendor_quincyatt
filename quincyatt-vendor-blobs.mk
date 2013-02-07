@@ -18,15 +18,14 @@
 PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/samsung/quincyatt/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/samsung/quincyatt/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+	vendor/samsung/quincyatt/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
-	vendor/samsung/quincyatt/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
+	vendor/samsung/quincyatt/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-	vendor/samsung/quincyatt/proprietary/bin/macloader:system/bin/macloader \
 	vendor/samsung/quincyatt/proprietary/bin/immvibed:system/bin/immvibed \
 	vendor/samsung/quincyatt/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/samsung/quincyatt/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -42,19 +41,17 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/quincyatt/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/quincyatt/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-	vendor/samsung/quincyatt/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-	vendor/samsung/quincyatt/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-	vendor/samsung/quincyatt/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/samsung/quincyatt/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+	vendor/samsung/quincyatt/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
 	vendor/samsung/quincyatt/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/samsung/quincyatt/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/samsung/quincyatt/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/samsung/quincyatt/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+	vendor/samsung/quincyatt/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/quincyatt/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/quincyatt/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/samsung/quincyatt/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -96,6 +93,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
 	vendor/samsung/quincyatt/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
 	vendor/samsung/quincyatt/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+	vendor/samsung/quincyatt/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/bcm4330_apsta.bin:system/etc/wifi/bcm4330_apsta.bin \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/wl:system/etc/wifi/wl \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
